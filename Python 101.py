@@ -123,10 +123,32 @@ def Lists():
 def List_Functions():
 
     lucky_numbers = [4, 8, 15, 16, 23, 42]
-    friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+    friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
     friends.extend(lucky_numbers)
+    friends.append("Creed")  # Adds "Creed" to the end of the list
+    friends.insert(1, "Kelly")  # Inserts "Kelly" at index 1
+    friends.remove("Jim")  # Removes "Jim" from the list
+    friends.clear()  # Clears the entire list
+    friends.pop()  # Removes the last element from the list
+    print(friends.index("Oscar"))  # Prints the index of "Kevin"
+    print(friends.count("Jim"))  # Counts how many times "Jim" appears in the list
+    friends.sort()  # Sorts the list in alphabetical order
+    lucky_numbers.sort()  # Sorts the lucky numbers in ascending order
+    lucky_numbers.reverse()  # Reverses the order of the lucky numbers
+    friends.reverse()  # Reverses the order of the friends list
+    friends2 = friends.copy()  # Creates a copy of the friends list
+
+    print(friends2)  # Prints the copied list
+    print(lucky_numbers) 
     print(friends)
 
+# ----------------------------
+# Tuples Functions
+# ----------------------------
+
+def Tuples():
+
+    
 
 if __name__ == "__main__":
-    List_Functions()
+    Tuples()
