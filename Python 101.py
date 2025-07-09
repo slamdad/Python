@@ -148,7 +148,25 @@ def List_Functions():
 
 def Tuples():
 
-    
+    coordinates = (4, 5)
+    print(coordinates[0])  # Prints the first element of the tuple
+    print(coordinates[1])  # Prints the second element of the tuple
+
+    # Tuples are immutable, so you cannot change their values
+    # coordinates[0] = 10  # This will raise an error
+
+    coordinates2 = [(4, 5), (6, 7), (80, 34)]
+    print(coordinates2[0])  # Prints the first tuple in the list of tuples
+    print(coordinates2[0][1])  # Prints the second element of the first tuple
+    print(coordinates2[1][0])  # Prints the first element of the second tuple
+
+
+
+# ----------------------------
+# Tuples Functions
+# ----------------------------
+
+
 
 if __name__ == "__main__":
     Tuples()
