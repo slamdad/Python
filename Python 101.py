@@ -2,6 +2,9 @@
 # Working with Strings
 # ----------------------------
 
+from math import *
+
+
 def test_strings():
     print("Hello World")
     print("   /|")
@@ -42,8 +45,8 @@ def test_numbers():
     print(2)
     print(-2.097)
     print(3 + 4.5)
-    print(3 + 4 * 5)
-    print(3 * (4 + 5))
+    print(3 + 4 * 5) 
+    print(3 * (4 + 5)) 
     print(10 % 3)
     print(10 / 3)
 
@@ -114,7 +117,7 @@ def Lists():
     print(friends)         # Prints the entire list
     print(friends[0])      # Prints "Kevin"
     print(friends[1:])     # Prints from index 1 to the end: ["Karen", "Jim"]
-    print(fripyends[1:3])    # Prints from index 1 up to (but not including) index 3: ["Karen", "Jim"]
+    print(friends[1:3])    # Prints from index 1 up to (but not including) index 3: ["Karen", "Jim"]
     
 # ----------------------------
 # List Functions
