@@ -1,5 +1,3 @@
-The-Forge-Python
-
 A record of my Python projects and exercises — built while learning through FreeCodeCamp, CS50, and independent practice.
 
 🎯 Purpose
